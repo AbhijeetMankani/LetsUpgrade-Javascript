@@ -1,0 +1,58 @@
+<html>
+    <head>
+        <title>Day 1 Assignment</title>
+    </head>
+
+    <body>
+        <h1>Question 1</h1>
+        <h3 id="p1"></h3>
+        <script src="Q1.js"></script>
+
+        <h1>Question 2</h1>
+        <p id="Q2">
+            var and let are used for mutable variable declaration, while, const declares an immutable variable or a constant<br>
+            assigning a value to a constant(const-declared variable) will cause an error to occur<br>
+
+            var was there in JS since ES5 while let and const arrived in ES6<br>
+            <br>
+            scope of var:<br>
+                var can be global or function scoped<br>
+                <br>
+            The problem with var:<br>
+                var-variables can be re-declared, and thius we cannot have the same variable name inside and outside of a function for 2 different variable, they will be considered as the same variable.
+                (Code1:)<br>
+                <br>
+            let:<br>
+                let is now preferred for variable declaration. It's no surprise as it comes as an improvement to var declarations. It also solves the problem with var that we just covered.<br>
+                <br>
+            scope of let:<br>
+                let is block scoped. I.E. it can only be used inside the block in which it was declared(block is anything inside curly braces{} ) (Code2:)<br>
+                <br>
+            let can be updated but not re-declared.<br>
+                Just like var,  a variable declared with let can be updated within its scope. Unlike var, a let variable cannot be re-declared within its scope. <br>
+                <br>
+                However, if the same variable is defined in different scopes, there will be no error.<br>
+                <br>
+                <br>
+        </p>
+        <script src="Q2.js"></script>
+
+        <h1>Question 3</h1>
+        <p>
+            Javascript hosts 3 main data types:<br>
+                1. Numbers<br>
+                2. Strings<br>
+                3. Objects<br>
+                4. Functions<br>
+                5. Boolean<br>  
+                <br>
+                All the variables though, are declared using the var, let or const keyword<br>
+                <br>
+
+                Apart from this there is another data type too, undefined<br>
+                This is the value when a variable is declared without assigning the value<br>
+                <br>
+                typeof is a keyword that returns the type of the value provided<br>
+        </p>
+    </body>
+</html>
